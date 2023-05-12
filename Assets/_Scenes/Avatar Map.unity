@@ -24645,7 +24645,7 @@ MonoBehaviour:
   waterPathRenderer: {fileID: 1051643893}
   earthPathRenderer: {fileID: 931085207}
   firePathRenderer: {fileID: 1062569487}
-  ep: 61
+  ep: 1
 --- !u!4 &1326076494
 Transform:
   m_ObjectHideFlags: 0

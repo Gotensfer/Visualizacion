@@ -37,6 +37,7 @@ public class PathRenderer : MonoBehaviour
             else
             {
                 pathWaypoints[i].AddComponent<PathWaypoint>().episode = i;
+                pathWaypoints[i].gameObject.SetActive(false);
             }
         }
     }
@@ -46,6 +47,18 @@ public class PathRenderer : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             RenderPath(ep);
+            
+            for (int i = ep - 1; i < finalEpisode; i++)
+            {
+                pathWaypoints[i].gameObject.SetActive(false);
+            }
+
+            for (int i = 0; i < ep; i++)
+            {
+                pathWaypoints[i].gameObject.SetActive(true);
+            }
+
+            ep = Mathf.Clamp(ep + 1, 0, finalEpisode);
         }
 
         if (Input.GetKeyDown(KeyCode.Q))
