@@ -5167,7 +5167,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -14916,6 +14916,55 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!1 &1484527674
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1484527676}
+  - component: {fileID: 1484527675}
+  m_Layer: 0
+  m_Name: Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1484527675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484527674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 6abdceaf20a45a049b033ad773255740, type: 2}
+--- !u!4 &1484527676
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484527674}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 117.3669, y: 9.549744, z: -329.30362}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &836452648177044328
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -14945,9 +14994,9 @@ GameObject:
   - component: {fileID: 4132213219436741236}
   - component: {fileID: 4244334922441511719}
   - component: {fileID: 4244334922441511720}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fuego
-  m_TagString: Untagged
+  m_TagString: Outlines
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14980,9 +15029,9 @@ GameObject:
   - component: {fileID: 2733540991669421118}
   - component: {fileID: 7401725769241182692}
   - component: {fileID: 7401725769241182693}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tierra
-  m_TagString: Untagged
+  m_TagString: Outlines
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15008,7 +15057,6 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: bede103b1bdfcc24398ccf97131bd099, type: 2}
-  - {fileID: 2100000, guid: 4a977acdf37208841ae898d3795e745f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15043,9 +15091,9 @@ GameObject:
   - component: {fileID: 3741870877678241154}
   - component: {fileID: 3741870877678241155}
   - component: {fileID: 3741870877678241156}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Aire
-  m_TagString: Untagged
+  m_TagString: Outlines
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15086,7 +15134,6 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: bede103b1bdfcc24398ccf97131bd099, type: 2}
-  - {fileID: 2100000, guid: 4a977acdf37208841ae898d3795e745f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15164,7 +15211,6 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: bede103b1bdfcc24398ccf97131bd099, type: 2}
-  - {fileID: 2100000, guid: 4a977acdf37208841ae898d3795e745f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15302,7 +15348,6 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: bede103b1bdfcc24398ccf97131bd099, type: 2}
-  - {fileID: 2100000, guid: 4a977acdf37208841ae898d3795e745f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15353,9 +15398,9 @@ GameObject:
   - component: {fileID: 8139048323815424637}
   - component: {fileID: 9074372913086989392}
   - component: {fileID: 9074372913086989393}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Agua
-  m_TagString: Untagged
+  m_TagString: Outlines
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
