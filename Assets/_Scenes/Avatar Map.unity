@@ -3602,9 +3602,9 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: -1
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &423278059
 RectTransform:
@@ -11068,19 +11068,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 711864376}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2023226030}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &711864376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18174,19 +18162,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 971382939}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1630478581}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &971382939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26444,19 +26420,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1329009758}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 210561599}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1329009758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28331,7 +28295,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1561093352}
-  - component: {fileID: 1561093353}
   m_Layer: 5
   m_Name: Region Highlighters
   m_TagString: Untagged
@@ -28363,27 +28326,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!223 &1561093353
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1561093351}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 2
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
 --- !u!1001 &1563391000
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28730,19 +28672,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1596508591}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 509347848}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1596508591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32873,7 +32803,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: bede103b1bdfcc24398ccf97131bd099, type: 2}
-  - {fileID: 2100000, guid: bede103b1bdfcc24398ccf97131bd099, type: 2}
+  - {fileID: 2100000, guid: 4a977acdf37208841ae898d3795e745f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -33094,7 +33024,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: bede103b1bdfcc24398ccf97131bd099, type: 2}
-  - {fileID: 2100000, guid: bede103b1bdfcc24398ccf97131bd099, type: 2}
+  - {fileID: 2100000, guid: 4a977acdf37208841ae898d3795e745f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -33159,7 +33089,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: bede103b1bdfcc24398ccf97131bd099, type: 2}
-  - {fileID: 2100000, guid: bede103b1bdfcc24398ccf97131bd099, type: 2}
+  - {fileID: 2100000, guid: 4a977acdf37208841ae898d3795e745f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -33395,7 +33325,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: bede103b1bdfcc24398ccf97131bd099, type: 2}
-  - {fileID: 2100000, guid: bede103b1bdfcc24398ccf97131bd099, type: 2}
+  - {fileID: 2100000, guid: 4a977acdf37208841ae898d3795e745f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
