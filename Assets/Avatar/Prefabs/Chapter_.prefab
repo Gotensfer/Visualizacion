@@ -90,7 +90,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Time: 2
-  text: {fileID: 5213286262651298758}
+  CloseButton: {fileID: 5213286262651298758}
 --- !u!1 &5213286262651298758
 GameObject:
   m_ObjectHideFlags: 0
